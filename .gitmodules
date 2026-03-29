@@ -1,0 +1,3 @@
+[submodule "mtprotoproxy/mtprotoproxy"]
+	path = mtprotoproxy/mtprotoproxy
+	url = git@github.com:vanny96/mtprotoproxy.git

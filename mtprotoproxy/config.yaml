@@ -9,7 +9,6 @@ arch:
   - armhf
   - armv7
   - i386
-image: "ghcr.io/donetick/{arch}-hassio-addons"
 
 ports:
   443/tcp: 444

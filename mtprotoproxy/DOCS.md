@@ -6,9 +6,9 @@ Use this add-on to provide a private Telegram proxy for yourself or others via y
 
 Click the buttons below to add the repository and install the add-on:
 
-[![Add Repository](https://my.home-assistant.io/badges/supervisor_add_repo.svg)](https://my.home-assistant.io/redirect/supervisor_add_repo/?repository_url=YOUR_REPO_URL_HERE)
+[![Add Repository](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/vanny96/hassio-addons)
 
-[![Install Add-on](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=mtprotoproxy&repository_url=YOUR_REPO_URL_HERE)
+[![Install Add-on](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=mtprotoproxy&repository_url=https://github.com/vanny96/hassio-addons)
 
 ## Configuration
 

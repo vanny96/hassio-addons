@@ -1,6 +1,6 @@
 name: "MTProto Proxy"
 description: "Use your homeassistant instance as a proxy for Telegram"
-version: "0.0.1"
+version: "0.0.2"
 slug: "mtprotoproxy"
 init: false
 arch:
@@ -27,7 +27,7 @@ options:
 schema:
   users:
     - name: "str"
-      secret: "match(^[0-9]{32}$)"
+      secret: "match(^[0-9a-zA-Z]{32}$)"
   modes:
     classic: "bool"
     secure: "bool"

@@ -1,5 +1,5 @@
 ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM ghcr.io/home-assistant/base:latest
 
 # Adapted mtprotoproxy/Dockerfile commands
 RUN apk add --no-cache \

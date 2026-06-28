@@ -17,7 +17,7 @@ RUN apk add --no-cache \
     libcap \
     ca-certificates
 
-RUN setcap cap_net_bind_service=+ep /usr/bin/python3.12
+RUN setcap cap_net_bind_service=+ep /usr/bin/python3.14
 
 COPY mtprotoproxy/mtprotoproxy.py mtprotoproxy/config.py run.sh /mtprotoproxy/
 WORKDIR mtprotoproxy

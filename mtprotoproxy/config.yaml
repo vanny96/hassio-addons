@@ -1,6 +1,6 @@
 name: "MTProto Proxy"
 description: "Use your homeassistant instance as a proxy for Telegram"
-version: "0.1.1"
+version: "0.1.2"
 slug: "mtprotoproxy"
 init: false
 arch:

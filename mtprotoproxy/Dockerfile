@@ -1,5 +1,12 @@
-ARG BUILD_FROM
+ARG BUILD_ARCH
+ARG BUILD_VERSION
+
 FROM ghcr.io/home-assistant/base:latest
+
+LABEL \
+  io.hass.version=${BUILD_VERSION} \
+  io.hass.type="app" \
+  io.hass.arch="${BUILD_ARCH}"
 
 # Adapted mtprotoproxy/Dockerfile commands
 RUN apk add --no-cache \
